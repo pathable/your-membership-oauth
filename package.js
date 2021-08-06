@@ -1,12 +1,12 @@
 Package.describe({
   summary: "Your Membership OAuth flow",
-  version: "1.0.3",
+  version: "1.1.0",
   name: "pathable:your-membership-oauth",
   git: "https://github.com/pathable/your-membership-oauth",
 });
 
 Package.onUse((api) => {
-  api.versionsFrom("1.10.3-beta.9");
+  api.versionsFrom('2.3');
 
   api.use("ecmascript", ["client", "server"]);
   api.use("oauth2", ["client", "server"]);
